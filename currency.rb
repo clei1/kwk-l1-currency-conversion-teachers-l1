@@ -31,4 +31,25 @@ def aud_to_usd(m)
   return m * 1.2
 end
 
-amt = gets.chomp().to_i
+choice = gets.chomp().to_i
+
+case choice
+when 1
+  
+when 2
+  #code here
+when 3
+  #code here
+when 4
+  #code here
+when 5
+  #code here
+when 6
+  #code here
+when 7
+  #code here
+when 8
+  #code here
+else
+  puts "Invalid input, exiting..."
+end
