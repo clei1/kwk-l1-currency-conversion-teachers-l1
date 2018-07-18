@@ -31,4 +31,4 @@ def aud_to_usd(m)
   return m * 1.2
 end
 
-
+amt = gets.chomp.to_i
