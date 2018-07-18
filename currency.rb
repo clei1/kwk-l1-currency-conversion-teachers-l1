@@ -32,7 +32,7 @@ def aud_to_usd(m)
 end
 
 puts "How much money do you want to convert?"
-amount = gets.chomp
+amount = gets.strip.
 
 puts "Pick from the following menu:"
 puts "1. USD to EUR"
